@@ -1,0 +1,233 @@
+
+
+
+.navbar {
+  background-color: #fff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  
+  }
+
+.logo {
+  background-color: #fff;
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1rem;
+  
+}
+
+.navbar-logo {
+  color: gold;
+  display: flex;
+  grid-gap: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-right: 420px;
+}
+
+
+.fas fa-gifts {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+
+
+.nav-menu {
+  display: flex;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  margin-left: 340px;
+  width: 65vw;
+  justify-content: center;
+}
+
+
+
+.social-logo{
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+
+}
+
+.nav-links {
+  color: #000000;
+  text-decoration: none;
+  padding: 0.3rem 1rem;
+}
+
+.nav-links:hover {
+  background-color: gold;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.nav-link {
+  color: #000000;
+  text-decoration: none;
+  margin-left: 230px;
+  padding: 0.3rem;
+}
+
+.nav-link:hover {
+  background-color: gold;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.social-icon {
+  color: #000000;
+  text-decoration: none;
+  padding: 0.3rem 0.7rem;
+}
+
+.social-icon:hover {
+  background-color: gold;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+
+.sign{
+  color: #000000;
+  text-decoration: none;
+  padding: 0.3rem ;
+}
+
+.log{
+  color: #000000;
+  text-decoration: none;
+}
+
+.sign:hover {
+  background-color: gold;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+
+
+
+.fa-bars {
+  color: gold;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .NavbarItems {
+    position: relative;
+  }
+
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 88vh;
+    position: absolute;
+    top: 75px;
+    left: -120%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: gold;
+    left: -13px;
+    opacity: 1;
+    transition: all 0.4s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 1.7rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    background-color: #fff;
+    border-radius: 0;
+  }
+
+  .navbar-logo {
+    
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    transform: translate(50%, 10%);
+    font-size: 20px;
+  }
+
+
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: gold;
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background: #000000;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+  }
+
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #000000;
+    transition: 250ms;
+  }
+
+  button {
+    display: none;
+  }
+
+  .social-logo{
+   display: none;
+   }
+
+}

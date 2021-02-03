@@ -1,0 +1,47 @@
+.App {
+	align-items: center;
+	justify-content: center;
+  }
+
+  *{
+  	box-sizing: border-box;
+  	margin:0;
+  	padding: 0;
+  	font-family: 'PT Sans', sans-serif;
+  }
+
+  .Particles{
+	width: 100%;
+	height: 0vh;
+	background-color: #ffffff;
+}
+
+  .navbar .search{
+	display: flex;
+	padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .search button, input{
+	border-radius: 10px;
+	border-color: #DAA520;
+	
+}
+.navbar .search  button{
+    color: #000000;
+	background-color: white;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	cursor: pointer;
+	}
+
+	
+	.home, .who-we-are , .sign-up, .contact-us, {
+
+		display: flex;
+		height: 90vh;
+		align-items: center;
+		justify-content: center;
+		font-size: 3rem;
+
+	}  
